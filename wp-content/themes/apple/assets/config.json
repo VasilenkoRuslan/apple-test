@@ -1,0 +1,10 @@
+{
+  "entry": {
+    "main": ["./scripts/main.js", "./styles/main.scss"]
+  },
+  "publicPath": "/wp-content/themes/apple",
+  "devUrl": "http://apple.loc",
+  "proxyUrl": "http://localhost:3000",
+  "cacheBusting": "[name]_[hash:8]",
+  "watch": ["*.php", "**/*.php"]
+}
