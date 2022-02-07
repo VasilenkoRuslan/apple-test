@@ -1,0 +1,192 @@
+.vertical-menu {
+  position: relative;
+  z-index: 2;
+}
+
+.vertical-menu .menu-btn {
+  max-width: 270px;
+  min-width: 220px;
+  background: #10a341;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Gilroy-Bold ☞", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 26px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.vertical-menu .menu-btn span.ion-android-menu {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 10px;
+  vertical-align: -3px;
+}
+
+.vertical-menu .display-none {
+  display: none;
+}
+
+.vertical-menu .vmenu-content {
+  width: 100%;
+  max-width: 360px;
+  min-width: 270px;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
+}
+
+.vertical-menu .vmenu-content.display-block {
+  min-width: inherit;
+}
+
+.vertical-menu .vmenu-content li {
+  display: block;
+  position: relative;
+}
+
+.vertical-menu .vmenu-content li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  line-height: 24px;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  background: #fff;
+  color: #707070;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.vertical-menu .vmenu-content li a i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-menu .vmenu-content li a strong {
+  font-family: "Gilroy-Bold ☞", serif;
+  color: #1d1d1d;
+  text-transform: uppercase;
+}
+
+.vertical-menu .vmenu-content li a strong:hover {
+  color: #10a341;
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu,
+.vertical-menu .vmenu-content li .verticale-sub-menu {
+  position: absolute;
+  z-index: 99;
+  text-align: left;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  padding: 20px 10px;
+  width: 590px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu li {
+  width: 50%;
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu li a {
+  margin: 5px 0 5px 0;
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu li a:hover {
+  background: #fff;
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu li ul li {
+  width: 100%;
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu li ul li a {
+  padding: 2px 20px 2px 20px;
+}
+
+.vertical-menu .vmenu-content li .verticale-mega-menu li ul li a:hover {
+  padding-left: 30px;
+  background: #fff;
+}
+
+.vertical-menu .vmenu-content li .verticale-sub-menu {
+  padding: 0;
+  width: 240px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+
+.vertical-menu .vmenu-content li .verticale-sub-menu li {
+  width: 100%;
+  padding: 0;
+  line-height: 20px;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  display: block;
+}
+
+.vertical-menu .vmenu-content li .verticale-sub-menu li:last-child {
+  border: 0;
+}
+
+.vertical-menu .vmenu-content li .verticale-sub-menu li a {
+  padding: 10px 20px;
+}
+
+.vertical-menu .vmenu-content li .verticale-sub-menu li:hover > a {
+  padding: 10px 20px 10px 25px;
+}
+
+.vertical-menu .vmenu-content li:hover .verticale-mega-menu,
+.vertical-menu .vmenu-content li:hover .verticale-sub-menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.vertical-menu .vmenu-content li:hover .verticale-mega-menu a,
+.vertical-menu .vmenu-content li:hover .verticale-sub-menu a {
+  background: #fff;
+}
+
+.vertical-menu .vmenu-content li.expand a {
+  padding-left: 45px;
+  font-weight: 700;
+}
+
+.vertical-menu .vmenu-content li.expand a i {
+  right: auto;
+  left: 20px;
+}
+
+.theme3 .vertical-menu li:hover > a {
+  color: #10a341;
+  background: #f9f9f9;
+}

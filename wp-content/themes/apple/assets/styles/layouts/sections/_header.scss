@@ -1,0 +1,25 @@
+@import "../../components/nav/top-nav-style1";
+@import "../../components/nav/main-menu";
+@import "../../components/nav/mega-menu";
+@import "../../components/nav/sub-menu";
+@import "../../components/nav/verticle-menu";
+
+header {
+  .logo {
+    width: 100%;
+
+    a img {
+      max-height: 80px;
+    }
+  }
+
+  #mega-menu-wrap-main #mega-menu-main > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item {
+    li.mega-menu-item > a.mega-menu-link {
+      transition: all 0.5s ease-out;
+
+      &:hover {
+        padding-left: 15px;
+      }
+    }
+  }
+}

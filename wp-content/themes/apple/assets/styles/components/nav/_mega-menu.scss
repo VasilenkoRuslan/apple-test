@@ -1,0 +1,137 @@
+/* mega-menu */
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 3;
+  background: #fff;
+  padding: 30px 15px;
+  -webkit-box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3.76px 0.24px rgba(0, 0, 0, 0.15);
+  margin: 0 15px;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(-75deg);
+  transform: rotateX(-75deg);
+
+  li:hover > .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+  }
+
+  & > li {
+    margin: 0;
+
+    & > ul {
+      li:last-child a {
+        padding-bottom: 0;
+      }
+
+      li > a:hover {
+        padding-left: 15px;
+      }
+    }
+  }
+
+  li ul li {
+    margin: 0;
+
+    &.mega-menu-title {
+      margin-bottom: 20px;
+
+      a {
+        color: #1d1d1d;
+        line-height: 1;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 0 !important;
+      }
+    }
+  }
+
+  li a {
+    text-align: left;
+    padding: 0 0 5px;
+    font-family: "Gilroy-Regular ☞", serif;
+    color: #707070;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+.mega-menu-custom-with {
+  max-width: 1110px;
+  min-width: 1110px;
+  left: 23%;
+
+  @media screen and (max-width: 1200px) {
+    min-width: 95%;
+    left: 0;
+    right: 0;
+  }
+}
+
+.theme1 .mega-menu li ul li.mega-menu-title a:hover {
+  color: #f33535;
+}
+
+.theme2 .mega-menu li ul li.mega-menu-title a:hover {
+  color: #ff7519;
+}
+
+.theme3 .mega-menu li ul li.mega-menu-title a:hover {
+  color: #10a341;
+}
+
+.blog-ctry-menu li {
+  a {
+    position: relative;
+    font-weight: 400;
+    color: #1d1d1d;
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 35px;
+
+    &::before {
+      content: "\f2c7";
+      position: absolute;
+      display: inline-block;
+      font-family: "Ionicons", serif;
+      right: 0;
+    }
+  }
+
+  &.active a::before {
+    content: "\f462";
+  }
+
+  ul.category-sub-menu {
+    display: none;
+
+    li a {
+      font-size: 13px;
+      line-height: 35px;
+      padding: 0 10px;
+      display: block;
+      color: #707070;
+
+      &::before {
+        content: "";
+      }
+    }
+  }
+}

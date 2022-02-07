@@ -1,0 +1,154 @@
+/* ------------------*
+# Main-menu
+*------------------ */
+.main-menu {
+  li {
+    margin: 0 1px;
+    position: relative;
+
+    a {
+      font-family: $gilroyBold;
+      font-weight: fontweight(bold);
+      display: block;
+      padding: 15px 20px;
+      font-size: 14px;
+      text-align: center;
+      line-height: 30px;
+      text-transform: uppercase;
+
+      i {
+        font-size: 16px;
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+}
+
+header {
+  #mega-menu-wrap-main {
+    #mega-menu-main {
+      & > li.mega-menu-item {
+        & > a.mega-menu-link {
+          font-family: "Gilroy-Bold \261E", sans-serif;
+          line-height: 30px;
+          padding: 15px 20px;
+          min-height: 60px;
+        }
+
+        .mega-sub-menu {
+          width: 800px;
+
+          & > .mega-menu-link {
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// theme1
+.theme1 {
+  li {
+    a {
+      color: $color-dark;
+    }
+
+    &:hover > a {
+      color: $theme-color;
+    }
+
+    &.active > a {
+      color: $theme-color;
+    }
+  }
+
+  #breadcrumbs {
+    text-align: center;
+
+    .sep {
+      display: inline-block;
+      margin: 0 5px;
+
+      &::before {
+        content: "\f3d3";
+        color: #707070 !important;
+        font-family: Ionicons, sans-serif;
+        padding: 0 !important;
+        position: relative;
+        top: 2px;
+        font-size: 14px;
+      }
+    }
+
+    .breadcrumb_last {
+      color: $theme-color;
+    }
+
+    span span {
+      a {
+        color: $color-dark;
+
+        &:hover {
+          color: $theme-color;
+        }
+
+        &.active > a {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+}
+
+// theme2
+.theme2 {
+  li {
+    a {
+      color: $color-dark;
+
+      @include min-screen(992) {
+        color: $color-white;
+      }
+
+      line-height: 1.2;
+    }
+
+    &:hover > a {
+      color: $theme-color2;
+    }
+
+    &.active > a {
+      color: $theme-color2;
+    }
+  }
+}
+
+// theme3
+.theme3 {
+  li {
+    a {
+      color: $color-dark;
+      line-height: 1.2;
+
+      @include min-screen(992) {
+        color: $color-white;
+      }
+    }
+
+    &:hover > a {
+      color: $theme-color3;
+    }
+
+    &.active > a {
+      color: $theme-color3;
+    }
+  }
+}
+
+/* ------------------*
+# Main-menu END
+*------------------ */

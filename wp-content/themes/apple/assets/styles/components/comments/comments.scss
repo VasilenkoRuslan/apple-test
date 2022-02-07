@@ -1,0 +1,11 @@
+.comment-list {
+  .comment-metadata .comment-meta-time-and-edit {
+    display: flex;
+  }
+
+  .comment.parent {
+    .comment {
+      margin-left: 25px;
+    }
+  }
+}
