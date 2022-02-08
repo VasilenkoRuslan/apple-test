@@ -127,7 +127,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/1.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/1.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -185,7 +185,7 @@
                             <span class="badge badge-success top-left">-10%</span>
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/6.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/6.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -246,7 +246,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/2.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/2.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -303,7 +303,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/7.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/7.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -363,7 +363,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/3.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/3.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -421,7 +421,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/8.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -482,9 +482,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/4.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/4.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/12.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -543,7 +543,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/9.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/9.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -604,9 +604,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/5.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/12.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -664,9 +664,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/12.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/5.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -727,9 +727,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/10.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/10.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/8.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -788,9 +788,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/11.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/11.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/5.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -856,7 +856,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/1.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/1.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -914,7 +914,7 @@
                             <span class="badge badge-success top-left">-10%</span>
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/6.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/6.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -975,7 +975,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/2.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/2.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1032,7 +1032,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/7.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/7.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1092,7 +1092,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/3.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/3.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1150,7 +1150,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/8.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1211,9 +1211,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/4.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/4.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/12.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1272,7 +1272,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/9.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/9.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1333,9 +1333,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/5.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/12.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1393,9 +1393,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/12.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/5.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1456,9 +1456,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/10.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/10.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/8.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1517,9 +1517,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/11.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/11.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/5.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1585,7 +1585,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/1.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/1.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1643,7 +1643,7 @@
                             <span class="badge badge-success top-left">-10%</span>
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/6.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/6.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1704,7 +1704,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/2.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/2.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1761,7 +1761,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/7.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/7.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1821,7 +1821,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/3.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/3.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1879,7 +1879,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/8.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -1940,9 +1940,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/4.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/4.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/12.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -2001,7 +2001,7 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/9.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/9.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -2062,9 +2062,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/5.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/12.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -2122,9 +2122,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/12.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/5.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -2186,9 +2186,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/10.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/10.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/8.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -2247,9 +2247,9 @@
                           <div class="product-thumbnail position-relative">
                             <span class="badge badge-danger top-right">New</span>
                             <a href="single-product.html">
-                              <img class="first-img" src="assets/img/product/11.jpg"
+                              <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/11.jpg"
                                    alt="thumbnail">
-                              <img class="second-img" src="assets/img/product/5.jpg"
+                              <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg"
                                    alt="thumbnail">
                             </a>
                             <!-- product links -->
@@ -2957,7 +2957,7 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/1.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/1.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3013,7 +3013,7 @@
                         <span class="badge badge-success top-left">-10%</span>
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/6.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/6.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3072,7 +3072,7 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/2.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/2.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3127,7 +3127,7 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/7.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/7.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3185,7 +3185,7 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/3.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/3.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3241,7 +3241,7 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/8.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3300,8 +3300,8 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/4.jpg" alt="thumbnail">
-                          <img class="second-img" src="assets/img/product/12.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/4.jpg" alt="thumbnail">
+                          <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3358,7 +3358,7 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/9.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/9.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3417,8 +3417,8 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/5.jpg" alt="thumbnail">
-                          <img class="second-img" src="assets/img/product/12.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg" alt="thumbnail">
+                          <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3474,8 +3474,8 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/12.jpg" alt="thumbnail">
-                          <img class="second-img" src="assets/img/product/5.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/12.jpg" alt="thumbnail">
+                          <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3534,8 +3534,8 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/10.jpg" alt="thumbnail">
-                          <img class="second-img" src="assets/img/product/8.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/10.jpg" alt="thumbnail">
+                          <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/8.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3592,8 +3592,8 @@
                       <div class="product-thumbnail position-relative">
                         <span class="badge badge-danger top-right">New</span>
                         <a href="single-product.html">
-                          <img class="first-img" src="assets/img/product/11.jpg" alt="thumbnail">
-                          <img class="second-img" src="assets/img/product/5.jpg" alt="thumbnail">
+                          <img class="first-img" src="<?= $temp_site_dir; ?>assets/img/product/11.jpg" alt="thumbnail">
+                          <img class="second-img" src="<?= $temp_site_dir; ?>assets/img/product/5.jpg" alt="thumbnail">
                         </a>
                         <!-- product links -->
                         <ul class="product-links d-flex justify-content-center">
@@ -3657,7 +3657,7 @@
         <div class="row">
           <div class="col-lg-3 col-sm-6 py-3">
             <div class="d-flex static-media2 flex-column flex-sm-row">
-              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="assets/img/icon/2.png"
+              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="<?= $temp_site_dir; ?>assets/img/icon/2.png"
                    alt="icon">
               <div class="media-body">
                 <h4 class="title text-capitalize text-white">Free Shipping</h4>
@@ -3667,7 +3667,7 @@
           </div>
           <div class="col-lg-3 col-sm-6 py-3">
             <div class="d-flex static-media2 flex-column flex-sm-row">
-              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="assets/img/icon/3.png"
+              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="<?= $temp_site_dir; ?>assets/img/icon/3.png"
                    alt="icon">
               <div class="media-body">
                 <h4 class="title text-capitalize text-white">Free Returns</h4>
@@ -3677,7 +3677,7 @@
           </div>
           <div class="col-lg-3 col-sm-6 py-3">
             <div class="d-flex static-media2 flex-column flex-sm-row">
-              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="assets/img/icon/4.png"
+              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="<?= $temp_site_dir; ?>assets/img/icon/4.png"
                    alt="icon">
               <div class="media-body">
                 <h4 class="title text-capitalize text-white">100% Payment Secure</h4>
@@ -3687,7 +3687,7 @@
           </div>
           <div class="col-lg-3 col-sm-6 py-3">
             <div class="d-flex static-media2 flex-column flex-sm-row">
-              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="assets/img/icon/5.png"
+              <img class="align-self-center mb-2 mb-sm-0 mr-auto  mr-sm-3" src="<?= $temp_site_dir; ?>assets/img/icon/5.png"
                    alt="icon">
               <div class="media-body">
                 <h4 class="title text-capitalize text-white">Support 24/7</h4>

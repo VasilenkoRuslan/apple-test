@@ -1,6 +1,11 @@
 {
   "entry": {
-    "main": ["./scripts/main.js", "./styles/main.scss"]
+    "main": ["./scripts/main.js", "./styles/main.scss"],
+    "login": ["./styles/wp-dashboard/login.scss"],
+    "admin": ["./scripts/wp-dashboard/admin.js", "./styles/wp-dashboard/admin.scss"],
+    "colors": ["./styles/wp-dashboard/colors.scss"],
+    "editor": ["./styles/wp-dashboard/editor.scss"],
+    "customizer": ["./scripts/wp-dashboard/customizer.js"]
   },
   "publicPath": "/wp-content/themes/apple",
   "devUrl": "http://apple.loc",

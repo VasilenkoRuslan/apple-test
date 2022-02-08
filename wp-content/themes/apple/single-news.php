@@ -7,15 +7,15 @@ echo get_theme_page_title($title); ?>
     <div class="container">
         <div class="row">
             <div class="col-12 col-xl-9 mx-auto">
-							<?php if (have_posts()) : ?>
-								<?php
-								the_post();
-								get_template_part('templates/content-single');
-								if (comments_open()) {
-									comments_template();
-								}
-								?>
-							<?php endif; ?>
+          <?php if (have_posts()) : ?>
+                <?php
+                the_post();
+                get_template_part('templates/content-single', 'news');
+                if (comments_open()) {
+                  comments_template();
+                }
+                ?>
+          <?php endif; ?>
             </div>
         </div>
     </div>
