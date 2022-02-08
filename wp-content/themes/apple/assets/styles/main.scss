@@ -1,1 +1,88 @@
-// @import "file";
+/**
+* Template Name: junno
+* Template URL: https://templatemag.com/junno/
+* Author: TemplateMag.com
+* License: https://templatemag.com/license/
+*/
+
+// node models files
+@import "./npmfiles/bootstrap";
+@import "./npmfiles/fontawesome";
+@import "./npmfiles/ionicons";
+@import "./npmfiles/simple-line-icons";
+@import "./npmfiles/jquery-ui";
+@import "./npmfiles/slick-slider";
+@import "./npmfiles/swiper";
+@import "./npmfiles/animate";
+
+// global
+@import "./common/variables";
+@import "./common/mixins";
+@import "./common/base";
+@import "./common/general";
+
+// theme default
+@import "./common/background-&-colors";
+@import "./common/functions";
+@import "./common/overlay";
+@import "./common/placeholder";
+@import "./common/spacer";
+@import "./common/typography";
+
+// components
+@import "./components/all-ctry-menu/all-ctry-menu";
+@import "./components/badge/badge";
+@import "./components/banner/banner";
+@import "./components/buttons/buttons";
+@import "./components/cart-links/cart-links";
+@import "./components/check-box/check-box";
+@import "./components/counter/counter";
+@import "./components/forms/contact-form/contact-form";
+@import "./components/forms/search-form/search-form";
+@import "./components/media/media";
+@import "./components/media/static-media";
+@import "./components/modal/modal";
+@import "./components/nav/top-nav-style1";
+@import "./components/nav/main-menu";
+@import "./components/nav/mega-menu";
+@import "./components/nav/sub-menu";
+@import "./components/nav/verticle-menu";
+@import "./components/offcanvas/offcanvas";
+@import "./components/offcanvas-cart/offcanvas-cart";
+@import "./components/offcanvas-menu-toggler/offcanvas-menu-toggler";
+@import "./components/pagination/pagination";
+@import "./components/product-tags/product-tags";
+@import "./components/products/product-links";
+@import "./components/products/product-tabs";
+@import "./components/products/product-tabs-menu";
+@import "./components/scroll-up/scroll-up";
+@import "./components/slider/blog-slider";
+@import "./components/slider/brand-slider";
+@import "./components/slider/featured-slider";
+@import "./components/slider/main-slider";
+@import "./components/slider/popular-slider";
+@import "./components/slider/product-slider";
+@import "./components/slider/single-product-sync";
+@import "./components/slider/single-product-sync-nav";
+@import "./components/slider/slick_arrow_dots-style";
+@import "./components/sticky-header/sticky-header";
+@import "./components/title-section/title-section";
+@import "./components/comments/comments";
+
+// layouts
+@import "./layouts/sections/header";
+@import "./layouts/sections/footer";
+
+// pages
+@import "./pages/blogPages/blog";
+@import "pages/cptPages/news/sports-filter";
+@import "pages/cptPages/news/pagination";
+@import "./pages/shopPages/shop";
+@import "./pages/searchPage/pagination";
+@import "./pages/account";
+@import "./pages/about-us";
+@import "./pages/check-out";
+@import "./pages/compare";
+@import "./pages/single-product";
+@import "./pages/whishlist";
+@import "./pages/map";
