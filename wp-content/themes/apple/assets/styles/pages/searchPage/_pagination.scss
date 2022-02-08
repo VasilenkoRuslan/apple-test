@@ -1,0 +1,26 @@
+.search_page {
+  .search_content {
+    .pagination {
+      justify-content: left;
+      color: $color-dark;
+
+      span.current {
+        background-color: $theme-color;
+        border-radius: 50%;
+        padding: 9px 18px;
+        margin: 8px;
+      }
+
+      a {
+        padding: 9px 18px;
+        border-radius: 50%;
+        margin: 8px;
+
+        &:hover {
+          color: $color-dark;
+          background-color: $placeholder-color;
+        }
+      }
+    }
+  }
+}
