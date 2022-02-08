@@ -17,19 +17,29 @@
  *
  * @package WordPress
  */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
+$cred_name= ($_SERVER['HTTP_HOST'] == 'apple.loc') ? 'dev' : 'prod';
+
+require_once 'credentials.php';
+global $cred;
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'apple' );
+define( 'DB_NAME', $cred[$cred_name]['DB_NAME'] );
 
 /** MySQL database username */
-define( 'DB_USER', 'apple' );
+define( 'DB_USER', $cred[$cred_name]['DB_USER'] );
+
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'apple' );
+define( 'DB_PASSWORD', $cred[$cred_name]['DB_PASSWORD'] );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', $cred[$cred_name]['DB_HOST'] );
+
+/** Bugs */
+define( 'WP_DEBUG', $cred[$cred_name]['WP_DEBUG'] );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -79,7 +89,7 @@ $table_prefix = 'wpa_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -94,3 +104,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define('FS_METHOD', 'direct');
